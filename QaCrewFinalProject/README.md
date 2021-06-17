@@ -108,7 +108,7 @@ Gerenciador de dependências<br>
 Framework responsável para usar a linguagem Gherkin<br>
 
 :heavy_check_mark: <b>Selenium</b><br>
-Framework responsável por fazer a integração do código Java com a linguagem Gherkin e automatização do navegadore<br>
+Framework responsável por fazer a integração do código Java com a linguagem Gherkin e automatização do navegador<br>
 
 :heavy_check_mark: <b>JUnit</b><br>
 Framework responsável por fazer a manutenção e validação dos casos de testes<br>
