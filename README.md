@@ -144,7 +144,7 @@ https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR
 
 - Dois cliquem em "runner"
 
-- Dois cliques em "RunnerCasoDeTesteUm.java, por exemplo se quiser executar o Caso 1"
+- Dois cliques em "RunnerCasoDeTesteUm.java", por exemplo se quiser executar o Caso 1"
 
 - Abrindo o código na janela central do Eclipse, clicar em qualquer lugar desses códigos com o botão direito e selecionar "Run As" -> "1 JUnit Test"
 
