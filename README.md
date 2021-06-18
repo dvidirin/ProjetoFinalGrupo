@@ -115,7 +115,7 @@ Framework responsável por fazer a manutenção e validação dos casos de teste
 
 --------------------------------------------------------------------
 ## Como utilizar
-### Pré-requisitos
+### 1-Pré-requisitos
 Instalar programas abaixo de acordo com seu sistema operacional.<br>
 - Instalar o java:
 https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR
@@ -125,34 +125,35 @@ https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR
 
 - Verificar se o JAVA_HOME está configurado em seu computador<br>
 
-### Baixar a tarefa do GitHub
+### 2-Baixar a tarefa do GitHub
 - Estando no repositório do projeto, clicar no botão "Code" (botão verde) e selecionar "Download ZIP"
 
 - O arquivo virá compactado, descompactar o arquivo<br>
 
-### Para importar no Eclipse
+### 3-Para importar no Eclipse
 - Com o Eclipse aberto, ir na opção de menu File e em seguida selecionar "Open Projects from File System..."
 
 - Na nova janela que se abriu, clicar no botão "Directory..." e escolher onde está a pasta do projeto que foi descompactado
 
-- Selecionar a "testFinalTricentis", que deverá estar dentro de outra pasta e clicar no botão "Selecionar pasta"
+- Selecionar a "QaCrewFinalProject", que deverá estar dentro de outra pasta e clicar no botão "Selecionar pasta"
 
 - O Eclipse irá importar o projeto<br>
 
-### Para executar a tarefa no Eclipse
+### 4-Para executar a tarefa no Eclipse
 - Após importar o projeto, dar dois cliques em "src/test/java"
 
 - Dois cliquem em "runner"
 
 - Dois cliques em "RunnerCasoDeTesteUm.java, por exemplo se quiser executar o Caso 1"
 
-- Abrindo o código na janela central do Eclipse, clicar em qualquer lugar desses códigos com o botão direito e selecionar "Run As" -> "1 Cucumber Feature"
+- Abrindo o código na janela central do Eclipse, clicar em qualquer lugar desses códigos com o botão direito e selecionar "Run As" -> "1 JUnit Test"
 
 - Caso seja aberto uma janela dizendo que há um erro no Workspace do Eclipse, clique no botão "Proceed" que o código será executado corretamente. Isso é um bug de importação do próprio Eclipse.
 
 - O código executará com sucesso.
 
-- Executar esses mesmos passos novamente para executar os Casos de teste, somente mudando o arquivo "RunnerCasoDeTesteXXX.java".
+### 5-Para executar outros casos de testes
+- Executar os passos acima (Passo 4), novamente para rodar os outros Casos de teste, somente mudando o arquivo "RunnerCasoDeTesteXXX.java".
 
 -------------------------------------------------------------------
 
